@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+@import './partials/bootstrap';
+@import './partials/btn-svo';
+@import './partials/tabs-svo';
+
+@import '../../node_modules/bootstrap-responsive-tabs/dist/css/bootstrap-responsive-tabs';
+
+@import './partials/overwrite';
+
+.chart {
+    display: flex;
+    align-items: flex-end;
+    border-left: 1px solid blue;
+    border-bottom: 1px solid blue;
+    position: relative;
+    &:before {
+        content: "";
+    }
+    padding: 5px;  
+    &__col {
+        background-color: blueviolet;
+        margin-top: 5px;
+        color: #fff;
+        padding: 3px 5px;
+        text-align: right;
+        white-space: nowrap;
+    }
+} 
+
+#graph {
+    padding: 10px;
+}
+.svg-graph {
+    border-bottom: 1px solid #222;
+}
+ 
+.axis path, .axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.area { fill: #4ca3bd; }
+
+.graph-container {
+    // border: 1px solid #dedede;
+    margin-top: 25px;
+}
+
+/***** tabs-svo  *****/
+.tabs-svo {
+
+}
+/*** / tabs-svo  *****/

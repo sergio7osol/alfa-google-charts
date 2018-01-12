@@ -1,0 +1,33 @@
+.tabs-svo {
+    &__tab-list {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+    &__tab {
+        padding: 5px 10px;
+        border: 2px solid #ccc;
+        cursor: pointer;
+        margin-left: 0;
+        margin-right: 0;
+        border-radius: 0;
+        font-size: 1em;
+        padding: .5em 1.5em;
+        &--active {
+            box-shadow: 0 .063em rgba(white,.4), inset 0 0 1.094em darken(#ccc, 40%), inset 0 .063em darken(#ccc, 20%),inset 0 -0.188em darken(#ccc, 20%); 
+            cursor: default;
+        }
+        
+        &:first-child {
+            border-top-left-radius: .625em;
+            border-bottom-left-radius: .625em; 
+            border-left: 2px solid #ccc;
+        }
+        &:last-child {
+            border-top-right-radius: .625em;
+            border-bottom-right-radius: .625em;
+        }
+    }
+    
+}

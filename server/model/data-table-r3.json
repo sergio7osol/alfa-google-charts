@@ -1,0 +1,9 @@
+{
+    "Month": "Ноябрь",
+    "ClientsByMonthCount": 6670,
+    "TransactionsByMonthCount": 8467,
+    "TransactionByMonthSum": 56356.76,
+    "BalanceByMonthSum": 566442.5,
+    "AccruedCashbackByMonthSum": 560.0,
+    "DebitedCashbackByMonthSum": 3560.0
+  }

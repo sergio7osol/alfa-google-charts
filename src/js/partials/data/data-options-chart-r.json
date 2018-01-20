@@ -1,0 +1,75 @@
+[
+    {
+        "container_el": ".cb-bl--reverse .graph-container--clients",
+        "GraphType": "Clients",
+        "chart_arr": [
+            ["Дни месяца", ""]
+        ],
+        "chartOptions": {
+            "title": "Клиенты",
+            "hAxis": { 
+                "title": "Дни месяца",  
+                "titleTextStyle": {
+                    "color": "#333"
+                }
+            },
+            "vAxis": {
+                "minValue": 0
+            }
+        }
+    }, {
+        "container_el": ".cb-bl--reverse .graph-container--transactions",
+        "GraphType": "Transactions",
+        "chart_arr": [
+            ["Дни месяца", ""]
+        ],
+        "chartOptions": {
+            "title": "Транзакции",
+            "hAxis": { 
+                "title": "Дни месяца",  
+                "titleTextStyle": {
+                    "color": "#333"
+                }
+            },
+            "vAxis": {
+                "minValue": 0
+            }
+        }
+    }, {
+        "container_el": ".cb-bl--reverse .graph-container--sum",
+        "GraphType": "TransactionSum",
+        "chart_arr": [
+            ["Дни месяца", ""]
+        ],
+        "chartOption": {
+            "title": "Сумма",
+            "hAxi": { 
+                "title": "Дни месяца",  
+                "titleTextStyl": {
+                    "color": "#333"
+                }
+            },
+            "vAxis": {
+                "minValue": 0
+            }
+        }
+    }, {
+        "container_el": ".cb-bl--reverse .graph-container--cashback",
+        "GraphType": "CashbackSum",
+        "chart_arr": [
+            ["Дни месяца", ""]
+        ],
+        "chartOptions": {
+            "title": "Cashback",
+            "hAxis": { 
+                "title": "Дни месяца",  
+                "titleTextStyle": {
+                    "color": "#333"
+                }
+            },
+            "vAxis": {
+                "minValue": 0
+            }
+        }
+    }
+]

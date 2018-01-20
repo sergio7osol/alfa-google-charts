@@ -3,6 +3,7 @@ import populateEls from './populate-elements';
 const populateRcbTables = (data) => {
     // data for graphs&table
     try {
+        const month = data.Month;
         const clientCount = data.ClientsByMonthCount;
         const transCount = data.TransactionsByMonthCount;
         const transSum = data.TransactionByMonthSum;
@@ -13,22 +14,28 @@ const populateRcbTables = (data) => {
         // Populate Monthly Total Table
         const populateTableMonthlyTotal_arr = [
             {
-                id: "rcb-monthly-total-clients",
+                id: "r-monthly-val", 
+                value: month
+            }, {
+                id: "r-monthly-others-val",
+                value: month
+            }, {
+                id: "r-monthly-total-clients",
                 value: clientCount
             }, {
-                id: "rcb-monthly-total-transactions",
+                id: "r-monthly-total-transactions",
                 value: transCount
             }, {
-                id: "rcb-monthly-total-sum",
+                id: "r-monthly-total-sum",
                 value: transSum
             }, {
-                id: "rcb-monthly-balance-sum",
+                id: "r-balance-sum",
                 value: balanceSum
             }, {
-                id: "rcb-monthly-accrued-sum",
+                id: "r-accrued-cb-sum",
                 value: accruedSum
             }, {
-                id: "rcb-monthly-debited-sum",
+                id: "r-debited-cb-sum",
                 value: debitedSum
             }
         ];

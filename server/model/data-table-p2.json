@@ -1,0 +1,13 @@
+{
+  "Month": "Декабрь",
+  "ClientsByMonthCount": 0,
+  "TransactionsByMonthCount": 53544,
+  "TransactionByMonthSum": 3452524.15,
+  "PendingCashbackByMonthSum": 4560.0,
+  "ApprovedCashbackByMonthSum": 770.0,
+  "ActivePartnersByMonthCount": 4,
+  "ActiveBatchesByMonthCount": 6,
+  "AgreementReestrsByMonthCount": 731,
+  "AgreedReestrsByMonthCount": 30,
+  "PaidReestrsByMonthCount": 670
+}

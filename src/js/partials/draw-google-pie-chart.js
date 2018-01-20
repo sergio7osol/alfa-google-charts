@@ -1,5 +1,4 @@
 import googlePieChart from './google-pie-chart';
-import dataPcbGooglePieChart from './data/data-pcb-pie.json';
 
 const drawGooglePieChart = (el, paiedCb, computedCb) => {
     const optionsPie = {

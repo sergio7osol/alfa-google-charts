@@ -1,8 +1,7 @@
 import formatToDayValArray from './format-to-day-val-array';
 
-const makeDataArrForGoogleChart = (data, oneChartOptions) => {
+const makeDataArrForGoogleChart = (data_arr, oneChartOptions) => {
     let graphType = oneChartOptions.GraphType;
-    const data_arr = data.Value;
     let index = null;
     for (let i = 0; i < data_arr.length; i++) {
         let res = data_arr[i].GraphType === graphType;

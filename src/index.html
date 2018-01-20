@@ -12,7 +12,7 @@
 		
 		<div class="btn-group btn-group--select pull-right col-xs-3 col-md-offset-9" data-toggle="buttons">
 			<div id="p-third-to-last-month-bl" class="bootsp-select-btn month-btn-bl">
-				<input name="p-options" id="p-third-to-last-month-bl__ctrl" class="month-btn-bl__ctrl" autocomplete="off" type="radio" checked>
+				<input name="p-options" id="p-third-to-last-month-bl__ctrl" class="month-btn-bl__ctrl" autocomplete="off" type="radio">
 				<label for="p-third-to-last-month-bl__ctrl" class="btn btn-default month-btn-bl__label">null</label>
 			</div>
 			<div id="p-second-to-last-month" class="bootsp-select-btn">
@@ -20,7 +20,7 @@
 				<label for="p-second-to-last-month__ctrl" class="btn btn-default month-btn-bl__label">null</label>
 			</div>
 			<div id="p-current-month" class="bootsp-select-btn month-btn-bl">			
-				<input name="p-options" id="p-current-month__ctrl" class="month-btn-bl__ctrl" autocomplete="off" type="radio">
+				<input name="p-options" id="p-current-month__ctrl" class="month-btn-bl__ctrl" autocomplete="off" type="radio" checked>
 				<label for="p-current-month__ctrl" class="btn btn-default month-btn-bl__label">null</label>
 			</div>
 		</div>
@@ -64,50 +64,50 @@
 									<caption>Всего за <span id="p-monthly-val"></span></caption>
 									<tr>
 										<th>Клиенты</th>
-										<td id="monthly-total-clients" class="text-right"></td>
+										<td id="p-monthly-total-clients" class="text-right"></td>
 									</tr>
 									<tr>
 										<th>Транзакции</th>
-										<td id="monthly-total-transactions" class="text-right"></td>
+										<td id="p-monthly-total-transactions" class="text-right"></td>
 									</tr>
 									<tr>
 										<th>Сумма транзакций</th>
-										<td id="monthly-total-sum" class="text-right"></td>
+										<td id="p-monthly-total-sum" class="text-right"></td>
 									</tr>
 									<tr>
 										<th>Планируемая сумма Cashback</th>
-										<td id="monthly-total-plan-cb-sum" class="text-right"></td>
+										<td id="p-monthly-total-plan-cb-sum" class="text-right"></td>
 									</tr>
 									<tr>
 										<th>Подтвержденная сумма Cashback</th>
-										<td id="monthly-total-approved-cb-sum" class="text-right"></td>
+										<td id="p-monthly-total-approved-cb-sum" class="text-right"></td>
 									</tr>
 								</table>
 							</div>
 						</div>
 						<div class="col-lg-6">
-							<div class="monthly-total">
+							<div class="p-monthly-total">
 								<table class="table table-striped table-bordered">
 									<caption>Другие показатели за <span id="p-monthly-others-val"></span></caption>
 									<tr>
 										<th>Партнеры с действующими акциями</th>
-										<td id="partner-count" class="text-right"></td>
+										<td id="p-partner-count" class="text-right"></td>
 									</tr>
 									<tr>
 										<th>Действующие акции</th>
-										<td id="promo-count" class="text-right"></td>
+										<td id="p-promo-count" class="text-right"></td>
 									</tr>
 									<tr>
 										<th>Реестры на согласовании</th>
-										<td id="on-approval-count" class="text-right"></td>
+										<td id="p-on-approval-count" class="text-right"></td>
 									</tr>
 									<tr>
 										<th>Реестры согласованы</th>
-										<td id="approved-count" class="text-right"></td>
+										<td id="p-approved-count" class="text-right"></td>
 									</tr>
 									<tr>
 										<th>Реестры выплачены</th>
-										<td id="payed-count" class="text-right"></td>
+										<td id="p-payed-count" class="text-right"></td>
 									</tr>
 								</table>
 							</div>
@@ -125,7 +125,7 @@
 		
 		<div class="btn-group btn-group--select pull-right col-xs-3 col-md-offset-9" data-toggle="buttons">
 			<div id="r-third-to-last-month-bl" class="bootsp-select-btn month-btn-bl">
-				<input name="r-options" id="r-third-to-last-month-bl__ctrl" class="month-btn-bl__ctrl" autocomplete="off" type="radio" checked>
+				<input name="r-options" id="r-third-to-last-month-bl__ctrl" class="month-btn-bl__ctrl" autocomplete="off" type="radio">
 				<label for="r-third-to-last-month-bl__ctrl" class="btn btn-default month-btn-bl__label">null</label>
 			</div>
 			<div id="r-second-to-last-month" class="bootsp-select-btn">
@@ -133,7 +133,7 @@
 				<label for="r-second-to-last-month__ctrl" class="btn btn-default month-btn-bl__label">null</label>
 			</div>
 			<div id="r-current-month" class="bootsp-select-btn month-btn-bl">			
-				<input name="r-options" id="r-current-month__ctrl" class="month-btn-bl__ctrl" autocomplete="off" type="radio">
+				<input name="r-options" id="r-current-month__ctrl" class="month-btn-bl__ctrl" autocomplete="off" type="radio" checked>
 				<label for="r-current-month__ctrl" class="btn btn-default month-btn-bl__label">null</label>
 			</div>
 		</div>
@@ -199,11 +199,11 @@
 										</tr>
 										<tr>
 											<th>Действующие акции</th>
-											<td id="accrued-cb-sum" class="text-right"></td>
+											<td id="r-accrued-cb-sum" class="text-right"></td>
 										</tr>
 										<tr>
 											<th>Реестры на согласовании</th>
-											<td id="debited-cb-sum" class="text-right"></td>
+											<td id="r-debited-cb-sum" class="text-right"></td>
 										</tr>
 									</table>
 								</div>
@@ -216,6 +216,6 @@
 				</div>
 			</div>
 	</section>
-	<div class="ServerDateTime">2018-01-12</div>
+	<div class="ServerDateTime hidden">2018-01-18</div>
 </body>
 </html>

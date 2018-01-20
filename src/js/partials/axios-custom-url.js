@@ -1,9 +1,10 @@
 import axios from 'axios';
 
-const axiosCustomUrl = (url) => {
-	axios.get('https://maps.googleapis.com/maps/api/geocode/json?address=430034')
+const axiosCustomUrl = (url, cb_fn) => {
+	console.log("axiosCustomUrl url", url);
+	axios.get(url) // 'https://maps.googleapis.com/maps/api/geocode/json?address=430034')
 		.then(function (response) {
-			console.log("axiosCustomUrl response: ", response);
+			cb_fn(response);
 		})
 		.catch(function (error) {
 			console.log("axiosCustomUrl error: ", error);
